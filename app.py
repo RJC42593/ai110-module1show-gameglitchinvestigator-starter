@@ -115,7 +115,8 @@ with col2:
     new_game = st.button("New Game 🔁")
 with col3:
     show_hint = st.checkbox("Show hint", value=True)
-
+    
+# FIX: Reset won/lost state when starting a new game.
 if new_game:
     st.session_state.attempts = 0
     st.session_state.secret = random.randint(1, 100)

@@ -12,6 +12,9 @@ def parse_guess(raw: str):
     """
     raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
 
+# FIX: Refactored check_guess into logic_utils.py with AI guidance.
+# FIX: Corrected hint direction for high and low guesses.
+
 
 def check_guess(guess, secret):
     """
